@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: microservice-gateway
+  config:
+    import: configserver:http://localhost:9090
+
+server:
+  port: 9091
+
